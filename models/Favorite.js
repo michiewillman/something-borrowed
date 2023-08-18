@@ -1,32 +1,33 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Favorite extends Model {}
 
-Favorite.init({
+Favorite.init(
+  {
     id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true,
-        autoIncrement: true
-        },
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+    },
     user_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    }, 
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
     blogPost_id: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    }
-
-
-}, {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+  },
+  {
     sequelize,
     freezeTableName: true,
     underscored: false,
     createdAt: false,
     updatedAt: false,
-    modelName: 'favorite'
-});
+    modelName: "favorite",
+  }
+);
 
 module.exports = Favorite;

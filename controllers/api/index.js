@@ -8,6 +8,6 @@ const favRoutes = require("./fav-routes");
 router.use("/category", categoryRoutes);
 router.use("/item", itemRoutes);
 router.use("/user", userRoutes);
-router.use("/favorite", favRoutes)
+router.use("/favorite", favRoutes);
 
 module.exports = router;

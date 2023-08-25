@@ -6,12 +6,11 @@ let imgURL;
 // initalizes the cloudinary widget in memory
 var myWidget = cloudinary.createUploadWidget(
   {
-    cloudName: "du1rn35uq",
+    cloudName: "dnmefbufn",
     uploadPreset: "somethingBorrowed",
   },
   (error, result) => {
     if (!error && result && result.event === "success") {
-      console.log("Done!");
       imgURL = result.info.secure_url;
     }
   }
@@ -25,7 +24,7 @@ document.querySelector(".cloudinary-button").addEventListener(
   },
   false
 );
-const createHeandler = async function (event) {
+const createHandler = async function (event) {
   event.preventDefault();
 
   let title = document.querySelector("#item-title").value;
@@ -38,10 +37,10 @@ const createHeandler = async function (event) {
     description: description,
     location: location,
     category_id: category,
-    image: imgURL || "https://res.cloudinary.com/du1rn35uq/image/upload/v1692239985/f8ycsrl6e6ttkbgvffme.jpg",
+    image:
+      imgURL ||
+      "https://res.cloudinary.com/du1rn35uq/image/upload/v1692239985/f8ycsrl6e6ttkbgvffme.jpg",
   };
-
-  console.log(itemData);
 
   await fetch(`/api/item`, {
     method: "POST",
@@ -52,4 +51,4 @@ const createHeandler = async function (event) {
 };
 
 // Event listener on create button
-createBtn.addEventListener("click", createHeandler);
+createBtn.addEventListener("click", createHandler);

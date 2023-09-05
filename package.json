@@ -1,23 +1,22 @@
 {
-  "name": "02-project",
-  "version": "1.0.0",
-  "description": "",
+  "name": "something-borrowed",
+  "version": "1.2.0",
+  "description": "An application that fosters community connections while eliminating unnecessary consumer purchases through borrowing & lending everyday products.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brendan-aper/02-project.git"
+    "url": "git+https://github.com/michiewillman/something-borrowed.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brendan-aper/02-project/issues"
+    "url": "https://github.com/michiewillman/something-borrowed.git/issues"
   },
-  "homepage": "https://github.com/brendan-aper/02-project#readme",
+  "homepage": "https://github.com/michiewillman/something-borrowed#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cloudinary": "^1.40.0",

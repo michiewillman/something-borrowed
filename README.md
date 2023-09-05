@@ -20,11 +20,13 @@ Welcome to Something Borrowed, a platform designed to facilitate easy lending an
 - [License](#License)
 
 ## Introduction
+
 <a id="Introduction">
 
 **Something Borrowed** is a web application that enables users to list items they are willing to lend to others and also allows them to borrow items from fellow users. Users can create accounts, log in, list items with details like pictures, titles, descriptions, and categories. Once an item is listed, it becomes publicly visible for other users to view and potentially borrow.
 
 ## Features
+
 <a id="Features"></a>
 
 - User account creation and authentication
@@ -36,12 +38,13 @@ Welcome to Something Borrowed, a platform designed to facilitate easy lending an
 - Categorized items (e.g., camping, household, yard, kitchen, games)
 
 ## Installation
+
 <a id="Installation"></a>
 
 1. Clone the repository from GitHub:
 
 ```
-  git clone https://github.com/brendan-aper/02-project.git
+  git clone https://github.com/michiewillman/something-borrowed.git
 ```
 
 2. Navigate to the project directory:
@@ -77,9 +80,11 @@ npm start
 6. Access the app through your web browser at http://localhost:3001.
 
 ## Usage
+
 <a id="Usage"></a>
 
 ### Account Creation and Sign In
+
 <a id="Account"></a>
 
 1. Visit the app's homepage.
@@ -88,6 +93,7 @@ npm start
 4. Log in using your newly created credentials.
 
 ### Listing an Item
+
 <a id="Listing"></a>
 
 1. Log in to your account.
@@ -96,18 +102,21 @@ npm start
 4. Click "Submit" to make the item listing public.
 
 ### Viewing Items
+
 <a id="Viewing"></a>
 
 1. On the explore page, you'll find a list of items available for borrowing.
 2. You can filter items by categories such as camping, household, yard, kitchen, and games.
 
 ### Favorites
+
 <a id="Favorites"></a>
 
 1. When viewing an item, you can mark it as a favorite by clicking the "Save" button.
 2. Favorited items can be accessed quickly from the "favorites" tab.
 
 ### Editing Listings
+
 <a id="Editing"></a>
 
 1. Log in to your account.
@@ -116,6 +125,7 @@ npm start
 4. Modify the item's details as needed and save the changes.
 
 ### My Listings and Lent Items
+
 <a id="Mylistings"></a>
 
 1. Under the "My Listings" tab, you can view a list of items you've listed.
@@ -123,24 +133,24 @@ npm start
 3. This helps you keep track of your lent items and their status.
 
 ## Credits
+
 <a id="Credits"></a>
 
-The app was a joint effort between the four of us, feel free to follow us on Github.
-
-[Brendan Aper](https://github.com/brendan-aper)
+Collaborators:
 
 [Michie Willman](https://github.com/michiewillman)
 
-[Noah Willis](https://github.com/willisnoah)
-
 [Merel Jacobs](https://github.com/MerelJac)
 
+[Brendan Aper](https://github.com/brendan-aper)
+
 ## License
+
 <a id="License"></a>
 
 This project is licensed under the MIT License.
 
-Copyright (c) 2023 brendan-aper
+Copyright (c) 2023 Michie Willman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
